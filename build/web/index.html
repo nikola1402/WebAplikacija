@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pocetna</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <% String poruka = (String) request.getAttribute("poruka");
+        if(poruka != null) { %>
+        <%=poruka%>
+        <% } %>
+        
+        <h1 style="text-align:center">Dobrodosli! Odaberite zeljenu opciju:</h1>
+        
+        <div id="izborNaslovna">
+            <form action="UnosKlijenta.jsp">
+                <h3><input type="submit" value="Unos klijenta" class="dugmePocetna"></h3>
+            </form>
+        
+            <form action="UnosRacuna.jsp" >
+                <h3><input type="submit" value="Unos racuna" class="dugmePocetna"></h3>
+            </form>
+
+            <form action="NadjiServlet" method="get">
+                <h3><input type="submit" name="Akcija" value="Pronadji klijenta" class="dugmePocetna"></h3>
+                
+                <h3><input type="submit" name="Akcija" value="Pronadji racun" class="dugmePocetna"></h3>
+            </form>
+            <form action="PretragaKlijenta3.jsp">
+                <h3><input type="submit" value="PretragaKlijenta2" class="dugmePocetna"></h3>
+            </form>
+            
+        </div>
+    </body>
+</html>

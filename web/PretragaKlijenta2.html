@@ -1,0 +1,19 @@
+<html>
+ <head>
+  <title>Pretraga klijenta 2</title>
+   <script language="JavaScript">
+    var iCallID;
+    function InitializeService(){
+     var url = "http://kompujter:22253/WebAplikacija/PretragaKlijentaServisService?wsdl"
+     service.useService(url, "PretragaKlijentaServis");
+     service.PretragaKlijentaServisService.callService("vratiKlijente");
+    }
+    function ShowResult(){
+     alert(event.result.value);
+    }
+   </script>
+  </head>
+ <body onload="InitializeService()" id="service"
+   style="behavior:url(webservice.htc)" onresult="ShowResult()"> </body>
+</html>
+

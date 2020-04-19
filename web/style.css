@@ -1,0 +1,129 @@
+body {
+    background-color: #00B5B5;
+}
+
+#container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#izborNaslovna{
+    background-color:darkturquoise;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    border: 2px solid black;
+    padding: 10px;  
+    text-align: center;
+}
+
+.dugmePocetna{
+    background-color: lightblue;
+    font-family: Times New Roman;
+    border: 1px solid black;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#unosKlijenta {
+    background-color:darkturquoise;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 22%;
+    border: 2px solid black;
+    padding: 10px;  
+    text-align: right;
+}
+
+#unosKlijenta .unosKlijenta{
+    margin-top: 12px;
+}
+
+#unosRacuna {
+    background-color:#66D3D3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;  
+}
+
+#unosRacuna .racun{
+    margin-top: 10px;
+    float: left;
+    text-align: right;
+}
+
+#izmenaKlijenta {
+    background-color:#66D3D3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;  
+}
+
+#izmenaKlijenta .izmenaKlijenta{
+    margin-top: 15px;
+}
+
+#unosRacuna .stavka{
+    margin-top: 10px;
+    float: right;
+    text-align:right
+}
+
+#izmenaRacuna {
+    background-color:#66D3D3;
+    width: 98%;
+    height:auto;
+    border: 2px solid black;
+    padding: 10px;  
+}
+
+#izmenaRacuna .izmenaracun{
+    margin-top: 10px;
+    border-bottom-style: solid;
+}
+
+#izmenaRacuna .izmenastavka{
+    margin-top: 10px;
+    border-bottom-style: solid;
+}
+
+#izmenaRacuna .izmenastavkatabela {
+    float: left;
+}
+
+#izmenaRacuna .izmenastavkaunos {
+    float: right;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+#listaRacuna {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#66D3D3;
+    width: 890px;
+    height: auto;
+    border: 2px solid black;
+    padding: 10px;  
+    align-content: center;
+}
+
+#izmenaStavke {
+    background-color:#66D3D3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;  
+}
